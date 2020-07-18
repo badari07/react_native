@@ -1,41 +1,41 @@
-import React from 'react';
-import { Text, StyleSheet, View, Button, TouchableOpacity } from 'react-native';
+import React from "react";
+import { Text, StyleSheet, View, Button, TouchableOpacity } from "react-native";
 
 const HomeScreen = ({ navigation }) => {
   return (
     <View>
-      <Text style={styles.text}>Hi there!</Text>
+      <Text style={styles.text}>Hi badari narayan k!</Text>
       <Button
-        onPress={() => navigation.navigate('Components')}
+        onPress={() => navigation.navigate("Components")}
         title="Go to Components Demo"
       />
       <Button
         title="Go to List Demo"
-        onPress={() => navigation.navigate('List')}
+        onPress={() => navigation.navigate("List")}
       />
       <Button
         title="Go to Image Demo"
-        onPress={() => navigation.navigate('Image')}
+        onPress={() => navigation.navigate("Image")}
       />
       <Button
         title="Go to Counter Demo"
-        onPress={() => navigation.navigate('Counter')}
+        onPress={() => navigation.navigate("Counter")}
       />
       <Button
         title="Go to Color Demo"
-        onPress={() => navigation.navigate('Color')}
+        onPress={() => navigation.navigate("Color")}
       />
       <Button
         title="Go to Square Demo"
-        onPress={() => navigation.navigate('Square')}
+        onPress={() => navigation.navigate("Square")}
       />
       <Button
         title="Go to Text Demo"
-        onPress={() => navigation.navigate('Text')}
+        onPress={() => navigation.navigate("Text")}
       />
       <Button
         title="Go to Box Demo"
-        onPress={() => navigation.navigate('Box')}
+        onPress={() => navigation.navigate("Box")}
       />
     </View>
   );
@@ -43,8 +43,8 @@ const HomeScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 30
-  }
+    fontSize: 30,
+  },
 });
 
 export default HomeScreen;
