@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "expo": "^38.0.0",
-    "expo-cli": "^3.22.3",
+    "expo-cli": "^6.0.8",
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
